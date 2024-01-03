@@ -1,0 +1,9 @@
+serverAddr = "42.51.21.88"
+serverPort = 7000
+
+[[proxies]]
+name = "小学网站"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 8080
+remotePort = 17604
